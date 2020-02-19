@@ -4,3 +4,5 @@ arquivo=open('Teste.txt')
 texto=arquivo.read()
 resposta = p.findall(texto)
 print(resposta)
+
+#RESPOSTA LINKEDLIST

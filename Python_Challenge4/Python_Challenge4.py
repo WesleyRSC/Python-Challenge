@@ -17,3 +17,6 @@ while i<400:
         else :
             valor=input("Digita ai o novo numero: ")
         i=i+1
+
+
+#RESPOSTA PEAK
