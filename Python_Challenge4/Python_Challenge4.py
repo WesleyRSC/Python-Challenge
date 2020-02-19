@@ -10,7 +10,9 @@ while i<400:
         print(html)
         rex = re.compile('[0-9]+')
         numero = rex.findall(html.decode("utf-8"))
-        if numero[0]:
+        #teste=numero[0]
+
+        if numero:
             valor = numero[0]
         else :
             valor=input("Digita ai o novo numero: ")
